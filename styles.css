@@ -1,0 +1,172 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Oswald",sans serif;
+	outline:none;
+
+}
+body{
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background-color: #000;
+}
+.container{
+	background:#fff;
+	border-radius: 5px;
+	text-align: center;
+	padding:10px 35px 0px 35px;
+	width: 70%;
+
+}
+.container header{
+
+}
+.container .form-outer{
+	width:100%;
+	overflow: hidden;
+	margin:px 0;
+}
+
+.form-outer form{
+	display: flex;
+	width:400%;
+}
+
+.logo{
+	width: 20%;
+
+
+}
+
+.form-outer form .page{
+	width:25%;
+	height:450px;
+	transition:margin-left 0.6s ease-in-out;
+}
+.page-content{
+	width: 100%;
+	height: 100%;
+}
+.title{
+	text-align: left;
+	font-size: 25px;
+	font-weight: 500;
+	margin-bottom: 25px;
+}
+.form-outer form .page .field{
+	height: 45px;
+	width:100%;
+	margin:45px 0; 
+
+}
+label{
+	font-weight: 500;
+	color:black;
+	font-size: 20px;
+	align-items: left;
+	width:100%;
+}
+.form-outer form .page .field input{
+	height: 100%;
+	width:100%;
+	border:1px solid lightgrey;
+	font-size: 18px;
+	padding-left:15px;
+
+}
+form .page .field select{
+	width:100%;
+	padding-left: 10px;
+	font-size: 17px;
+	font-weight: 500;
+
+}
+.form-outer form .page .field button{
+	width:100%;
+	height: calc(100% + 5px);
+	margin-top:-20px;
+	border:none;
+	background:#d43f8d;
+	border-radius: 5px;
+	color:#fff;
+	font-size: 18px;
+	font-size: 500;
+	letter-spacing: 1px;
+	text-transform:uppercase;
+	cursor:pointer;
+	transition-property: 0.3s ease;
+}
+.form-outer form .page .field button:hover{
+	background :#000;
+
+}
+.form-outer form .page .btns button {
+	margin-top: -20px!important ;
+}
+form .page .btns button .perv{
+	margin-right:3px;
+	font-size:17px;
+}
+form .page .btns button .next{
+	margin-right: 3px;
+	font-size:17px;
+}
+form .page .btns button .next{
+	margin-left: 3px;
+}
+.btns {
+	display: flex;
+}
+
+
+.search-area{
+	width:100%;
+	border:none;
+
+
+}
+
+.page-content img {
+	width:10%;
+}
+.types {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 25px ;
+	padding-top: 5px;
+	padding-bottom: 0px;
+
+
+}
+.types-item{
+	flex:3;
+	font-size: 35px;
+	padding: 5px 35px;
+	color:#000;
+	background:#ededed;
+	margin-left: 5px;
+
+}
+.fas {
+		font-size: 50px;
+		padding-top: 5px;
+
+
+}
+.types-item:hover{
+	background:crimson;
+	color:white; 
+}
+.types-item:hover label{
+	color:white;
+}
+.fa-star{
+	color:yellow;
+	font-size: 15px;
+}
+
